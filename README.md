@@ -16,6 +16,7 @@ git clone https://github.com/Deden33/mwehehe
 cd mwehehe
 npm install
 npm update
+node .
 ```
 
 ## INSTALL ON TERMUX WITH UBUNTU
