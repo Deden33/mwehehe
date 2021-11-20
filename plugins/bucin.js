@@ -1,7 +1,7 @@
 let handler = async (m, { conn, usedPrefix }) => {
-  await conn.sendButton(m.chat, `“${pickRandom(global.bucin)}”`, author, 'Bucin', `${usedPrefix}bucin`, m)
+  await conn.sendButton(m.chat, `“${pickRandom(global.penyemangat)}”`, author, 'Penyemangat', `${usedPrefix}penyemangat`, m)
 }
-handler.help = ['bucin']
+handler.help = ['penyemangat']
 handler.tags = ['quotes']
 handler.command = /^(bucin)$/i
 handler.owner = false
@@ -23,9 +23,9 @@ function pickRandom(list) {
 
 // https://jalantikus.com/tips/kata-kata-bucin/
 global.bucin = [
-  "Aku memilih untuk sendiri, bukan karena menunggu yang sempurna, tetapi butuh yang tak pernah menyerah.",
-  "Seorang yang single diciptakan bersama pasangan yang belum ditemukannya.",
-  "Jomblo. Mungkin itu cara Tuhan untuk mengatakan 'Istirahatlah dari cinta yang salah'.",
+  "Berpegang teguh pada kebenaran walaupun kebenaran itu akan membunuhmu."Umar bin khattab,
+  "Mungkin kalian mengira syafaatku hanya untuk orang-orang yang bertakwa? Tidak, tetapi juga untuk orang-orang yang berdosa."Rasulullah SAW,
+  "Salah satu dosa terburuk adalah seseorang yang menganggap remeh dosanya."Abu bakar asshidiq,
   "Jomblo adalah anak muda yang mendahulukan pengembangan pribadinya untuk cinta yang lebih berkelas nantinya.",
   "Aku bukan mencari seseorang yang sempurna, tapi aku mencari orang yang menjadi sempurna berkat kelebihanku.",
   "Pacar orang adalah jodoh kita yang tertunda.",
