@@ -1,7 +1,7 @@
 let handler = async (m, { conn, usedPrefix }) => {
-  await conn.sendButton(m.chat, `“${pickRandom(global.penyemangat)}”`, author, 'Penyemangat', `${usedPrefix}penyemangat`, m)
+  await conn.sendButton(m.chat, `“${pickRandom(global.bucin)}”`, author, 'Bucin', `${usedPrefix}bucin`, m)
 }
-handler.help = ['penyemangat']
+handler.help = ['bucin']
 handler.tags = ['quotes']
 handler.command = /^(bucin)$/i
 handler.owner = false
@@ -23,12 +23,12 @@ function pickRandom(list) {
 
 // https://jalantikus.com/tips/kata-kata-bucin/
 global.bucin = [
-  "Berpegang teguh pada kebenaran walaupun kebenaran itu akan membunuhmu. -Umar bin khattab",
-  "Mungkin kalian mengira syafaatku hanya untuk orang-orang yang bertakwa? Tidak, tetapi juga untuk orang-orang yang berdosa. -Rasulullah SAW",
-  "Salah satu dosa terburuk adalah seseorang yang menganggap remeh dosanya. Abu bakar asshidiq",
-  "Siapa yang menjauhkan diri dari sifat suka mengeluh maka berarti ia mengundang kebahagiaan. -Abu bakar asshidiq",
-  "Cara terbaik untuk mengalahkan seseorang adalah mengalahkannya dengan kesopanan. -Abu bakar asshidiq",
-  "Buatlah tujuan untuk hidup, kemudian gunakan segenap kekuatan untuk mencapainya, kamu pasti berhasil. -Utsman bin affan",
+  "Aku memilih untuk sendiri, bukan karena menunggu yang sempurna, tetapi butuh yang tak pernah menyerah.",
+  "Seorang yang single diciptakan bersama pasangan yang belum ditemukannya.",
+  "Jomblo. Mungkin itu cara Tuhan untuk mengatakan 'Istirahatlah dari cinta yang salah'.",
+  "Jomblo adalah anak muda yang mendahulukan pengembangan pribadinya untuk cinta yang lebih berkelas nantinya.",
+  "Aku bukan mencari seseorang yang sempurna, tapi aku mencari orang yang menjadi sempurna berkat kelebihanku.",
+  "Pacar orang adalah jodoh kita yang tertunda.",
   "Jomblo pasti berlalu. Semua ada saatnya, saat semua kesendirian menjadi sebuah kebersamaan dengannya kekasih halal. Bersabarlah.",
   "Romeo rela mati untuk juliet, Jack mati karena menyelamatkan Rose. Intinya, kalau tetap mau hidup, jadilah single.",
   "Aku mencari orang bukan dari kelebihannya tapi aku mencari orang dari ketulusan hatinya.",
